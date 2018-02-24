@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7d9c80"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Formulaire de réservation"
+        android:id="@+id/textView17"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/imageView6"
+            android:background="@drawable/calender" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="La date"
+            android:textColor="#FFF"
+            android:id="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/date"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/ic_directions_car_white_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Type de véhicule"
+            android:id="@+id/textView16"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textIsSelectable="false"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/group1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance de soins d’urgence"
+            android:id="@+id/AmbulanceUrgence"
+            android:checked="false"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance de soins intensifs"
+            android:id="@+id/AmbulanceNormale"
+            android:checked="false"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Véhicule sanitaire léger"
+            android:id="@+id/vehiculeLeger"
+            android:checked="false"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/assistant" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Réservation avec assistant"
+            android:id="@+id/Assistant"
+            android:checked="false"
+            android:textColor="#FFF"
+            android:layout_marginTop="15dp"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/position" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Communiquer votre position?"
+            android:id="@+id/Position"
+            android:textColor="#FFF"
+            android:checked="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:id="@+id/buttonvalider"
+        android:text="Valider"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.25"
+        android:onClick="ValiderAjout"/>
+
+</LinearLayout>

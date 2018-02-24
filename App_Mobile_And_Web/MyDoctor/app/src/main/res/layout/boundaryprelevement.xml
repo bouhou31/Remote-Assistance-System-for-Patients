@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7d9c80"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:background="@drawable/prelevimage"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="84dp"
+        android:id="@+id/buttonglycemie"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/glycemie"
+        android:layout_weight="0.05"
+        android:layout_marginTop="10dp"
+        android:onClick="glycemie"/>
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="84dp"
+        android:id="@+id/buttontension"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tension"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:onClick="tension"/>
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="84dp"
+        android:id="@+id/buttonindicateur"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/indicateur"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.10"
+        android:onClick="indicateur"/>
+</LinearLayout>

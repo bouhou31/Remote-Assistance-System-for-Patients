@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prelevement"
+            android:icon="@drawable/prelevbleu"
+            android:title="Prelevement" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notifbleu"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@drawable/bluetooth"
+            android:title="Communiquer" />
+        <item
+            android:id="@+id/nav_urgence"
+            android:icon="@drawable/iconeurgence"
+            android:title="Urgence" />
+        <item
+            android:id="@+id/nav_traitement"
+            android:icon="@drawable/traitbleu"
+            android:title="Traitement" />
+        <item
+            android:id="@+id/nav_rdv"
+            android:icon="@drawable/rendevbleu"
+            android:title="Rendez Vous" />
+    </group>
+
+</menu>

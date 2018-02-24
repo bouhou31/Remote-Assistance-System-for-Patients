@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bcs.MyDoctor">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/prelevbleu"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceUrgence">
+            android:label= "InterfaceUrgence">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceNotification">
+            android:label= "InterfaceNotification">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfacePrelevement">
+            android:label= "InterfacePrelevement">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceTraitement">
+            android:label= "InterfaceTraitement">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceRendezVous">
+            android:label= "InterfaceRendezVous">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfacePrelevementGlycemie">
+            android:label= "InterfacePrelevementGlycemie">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfacePrelevementTension">
+            android:label= "InterfacePrelevementTension">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfacePrelevementIndicateur">
+            android:label= "InterfacePrelevementIndicateur">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceReservation">
+            android:label= "InterfaceReservation">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceAjouterReservation">
+            android:label= "InterfaceAjouterReservation">
+        </activity>
+        <activity android:name="com.example.bcs.MyDoctor.InterfaceParametres">
+            android:label= "InterfaceParametres">
+        </activity>
+        <activity
+            android:name="com.example.bcs.MyDoctor.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

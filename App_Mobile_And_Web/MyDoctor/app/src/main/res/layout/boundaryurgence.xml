@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7d9c80"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/num" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/appelurgence"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/urgence"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Appler mon numéro d&apos;urgence"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#b01834"
+        android:textStyle="normal|bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:layout_width="79dp"
+            android:layout_height="72dp"
+            android:id="@+id/signaler"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/signalerincident"
+            android:layout_marginLeft="60dp" />
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="72dp"
+            android:id="@+id/boutonparametre"
+            android:onClick="parametres"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/parametre" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_weight="0.53"
+        android:layout_marginLeft="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="107dp"
+            android:layout_height="57dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Signaler incident"
+            android:id="@+id/textView20"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FFF"
+            android:textSize="15dp"
+            android:layout_weight="0.26" />
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Modifier numéro"
+            android:id="@+id/textView23"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="@drawable/notification_template_icon_bg">
+
+        <RadioGroup
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentiomètre"
+                android:textColor="#FFF"
+                android:id="@+id/radioButton4"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pèse-personne"
+                android:textColor="#FFF"
+                android:id="@+id/radioButton6"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bracelet"
+                android:textColor="#FFF"
+                android:id="@+id/radioButton7"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glucométre"
+                android:textColor="#FFF"
+                android:id="@+id/radioButton5"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="81dp"
+            android:id="@+id/button2"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/signalermateriel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Matériel défectueux"
+            android:id="@+id/textView24"
+            android:layout_marginTop="17dp"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

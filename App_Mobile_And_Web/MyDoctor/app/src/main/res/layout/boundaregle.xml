@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7d9c80"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Taper le numéro que vous souhaitez appeler en cas d&apos;urgence?"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/appel"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/num"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="36dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="319dp"
+        android:layout_height="104dp"
+        android:text="Valider"
+        android:id="@+id/sauv"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="sauvegarder"/>
+</LinearLayout>

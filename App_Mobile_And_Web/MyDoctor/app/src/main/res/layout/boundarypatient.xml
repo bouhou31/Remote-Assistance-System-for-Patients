@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/liste"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="76dp"
+            android:id="@+id/button3"
+            android:layout_gravity="right"
+            android:background="@android:drawable/ic_menu_edit" />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="136dp"
+            android:id="@+id/imageView8"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/avatarbleu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/nom"
+            android:textSize="23dp"
+            android:textColor="#2f6da3"
+            android:layout_marginTop="5dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+
+            android:text="Information personnelles"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prenom"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_naissance"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sexe"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etat_civil"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adresse"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telephone"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/num_urgence"
+            android:textSize="20dp"
+            android:textColor="#de5456" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biometrie"
+
+            android:gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#2e354f"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/taille"
+            android:textSize="20dp"
+            android:textColor="#2e354f"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poids"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_sang"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/imageView11"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/patho" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_diabete"
+            android:textSize="20dp"
+            android:textColor="#2e354f"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_debut_diabete"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nom_maladie"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_debut_maladie"
+            android:textSize="20dp"
+            android:textColor="#2e354f" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/imageView15"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/suivi" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView16"
+            android:background="@drawable/graphe1" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
